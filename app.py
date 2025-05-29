@@ -33,6 +33,6 @@ seed_text=st.text_input("type your message","")
 if st.button("predict next word"):
     if seed_text.strip():
         next_word=predict_next_word(seed_text)
-        st.success(f"next word prediction {next_word}")
+        st.success(f"next word prediction **{next_word}**")
     else:
         st.warning("please type something else to get prediction")
