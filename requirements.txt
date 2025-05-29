@@ -1,4 +1,8 @@
-streamlit
 tensorflow==2.15.0
-numpy==1.24.3
-pickle
+pandas 
+numpy 
+scikit-learn
+tensorboard
+matplotlib
+streamlit
+scikeras
